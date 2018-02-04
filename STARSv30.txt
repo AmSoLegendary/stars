@@ -32,8 +32,6 @@ void opening(void)
 {
 clrscr();
 _setcursortype(_NOCURSOR);
-gotoxy(30,1); cout<<"Starfield Simulation";
-gotoxy(37,2); cout<<"by Sean Bugel";
 gotoxy(2,19); cout<<"+ to speed up star field";
 gotoxy(2,20); cout<<"- to slow down star field";
 gotoxy(2,21); printf("%c to move the star field right",16);
